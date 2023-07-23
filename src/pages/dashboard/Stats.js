@@ -10,7 +10,7 @@ const Stats = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(showStats());
-  }, []);
+  });
 
   if (isLoading) {
     return <Loading center />;

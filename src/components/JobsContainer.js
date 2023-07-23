@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Jobs, Loading, PageBtnContainer } from "./index";
 import { useSelector, useDispatch } from "react-redux";
 import Wrapper from "../assets/wrappers/JobsContainer";

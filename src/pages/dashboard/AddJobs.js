@@ -48,7 +48,7 @@ const AddJobs = () => {
     if (!isEditing) {
       dispatch(handleChange({ name: "jobLocation", value: user.location }));
     }
-  }, []);
+  });
 
   const handleJobInput = (e) => {
     const name = e.target.name;

@@ -3,7 +3,6 @@ import { FaAlignLeft, FaUserCircle, FaCaretDown } from "react-icons/fa";
 import Logo from "./Logo";
 import { useState } from "react";
 import {
-  logoutUser,
   toggleSidebar,
   clearStore,
 } from "../features/user/userSlice";
